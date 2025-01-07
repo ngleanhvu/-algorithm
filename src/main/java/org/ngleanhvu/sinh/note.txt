@@ -1,0 +1,15 @@
+yêu cầu của thuật toán sinh
+
+# biết được cấu hình đầu tiên
+# biết được cấu hình cuối cùng
+# biết được cấu hình sinh ra kết quả tiếp theo
+
+# Mã giả
+while(chua phai cau hinh cuoi cung)
+    print(cau hinh hien tai)
+    sinh(cau hinh tiep theo)
+
+
+# sinh xua nhi phan
+ 1+0 = 0+1 = 1
+ 1+1 = 0 nho 1
