@@ -6,19 +6,13 @@ import java.util.TreeMap;
 
 public class SinhNhiPhan {
     static int n;
+    static boolean ok = true;
     static int [] X = new int[100];
 
     static void khoiTao() {
         for (int i=0; i<n; i++) {
             X[i] = 0;
         }
-    }
-    // Cau hinh cuoi cung toan bo = 1
-    static boolean kiemTra() {
-        for(int i=0; i<n; i++) {
-            if(X[i] == 0) return false;
-        }
-        return true;
     }
 
     static void sinh() {
@@ -27,8 +21,9 @@ public class SinhNhiPhan {
             X[i] = 0;
             i--;
         }
+        if(i==-1) ok=false;
         // Tim duoc bit dau tien = 0 tinh tu ben phai
-        X[i] = 1;
+        else X[i] = 1;
     }
     static void xuat() {
         for(int i=0; i<n; i++) {
@@ -40,10 +35,9 @@ public class SinhNhiPhan {
         // Bat dau tu bit cuoi cung
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap n = "); n = scanner.nextInt();
-        while (!kiemTra()) {
+        while (ok) {
             xuat();
             sinh(); // sinh ra cau hinh tiep theo
         }
-        xuat();
     }
 }
