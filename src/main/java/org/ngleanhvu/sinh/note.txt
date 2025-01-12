@@ -42,3 +42,6 @@ ví dụ 1 2 5 => 1 3 5 nhưng vẫn còn 1 3 4 đứng trước vậy nên ph�
 
 tương ứng với số lớn nhất mà tổ 5C3 là 345
 
+
+# Sinh hoan vi
+
