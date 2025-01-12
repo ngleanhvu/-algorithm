@@ -45,3 +45,10 @@ tương ứng với số lớn nhất mà tổ 5C3 là 345
 
 # Sinh hoan vi
 
+# 1 2 3 => 3 2 1
+
+# tim vi tri bat dau thay doi hoan vi
+
+# tim vi tri thay doi hoan vi
+
+
